@@ -1,0 +1,29 @@
+{
+    "name": "linely",
+    "version": "0.0.1",
+    "main": "./linely.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "author": {
+        "name" : "Robert Schooley",
+        "email": "robert.schooley@gmail.com"
+    },
+    "bugs": "https://github.com/rschooley/linely/issues",
+    "description": "Line parser for text files",
+    "homepage": "https://github.com/rschooley/linely",
+    "keywords": [ "parsing", "line", "text files"],
+    "license": "MIT",
+    "os": [ "darwin", "linux" ],
+    "private": false,
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/rschooley/linely.git"
+    }
+}
