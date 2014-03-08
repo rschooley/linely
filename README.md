@@ -10,3 +10,8 @@ The existing modules trying to do this all have issues:
 
 ### Benchmark
 There is a benchmark testbed with larger files that will be added to a separate repo.
+
+### Installing
+```bash
+npm install linely
+```
