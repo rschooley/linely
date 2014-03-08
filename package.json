@@ -16,7 +16,7 @@
         "email": "robert.schooley@gmail.com"
     },
     "bugs": "https://github.com/rschooley/linely/issues",
-    "description": "Line parser for text files",
+    "description": "Node.js line parser for text files",
     "homepage": "https://github.com/rschooley/linely",
     "keywords": [ "parsing", "line", "text files"],
     "license": "MIT",
@@ -25,5 +25,8 @@
     "repository": {
         "type" : "git",
         "url" : "https://github.com/rschooley/linely.git"
+    },
+    "scripts": {
+        "test": "make test"
     }
 }
