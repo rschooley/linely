@@ -15,3 +15,24 @@ There is a benchmark testbed with larger files that will be added to a separate 
 ```bash
 npm install linely
 ```
+
+### Using
+
+```javascript
+var LineStream  = require('linely').LineStream,
+    stream      = new LineStream();
+
+stream.readFile(filePath);
+
+stream.on('line', function (line, number) {
+    // each line
+});
+
+stream.on('end', function () {
+    // done
+});
+
+stream.on('error', function (err) {
+    // handle error
+});
+```
